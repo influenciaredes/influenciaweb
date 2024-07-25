@@ -1,0 +1,61 @@
+.brandContainer {
+  margin: 0 auto;
+  margin-top: -60px;
+}
+
+.brandContainer div:nth-child(2) {
+  margin-top: -150px;
+}
+
+.brandContainer img {
+  animation: moveVert 10s ease-in-out infinite !important;
+}
+@keyframes moveVert {
+  0% {
+    transform: translateY(14px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(14px);
+  }
+}
+
+.container .text {
+  position: relative;
+  color: red;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.container .text .firstText {
+  color: white;
+}
+
+.text .secText:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.contactButton:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .brandContainer {
+    margin-top: -40px;
+  }
+
+  .brandContainer div:nth-child(2) {
+    margin-top: -100px;
+  }
+  .responsiveMarginLogo {
+    margin-top: 50px;
+  }
+}

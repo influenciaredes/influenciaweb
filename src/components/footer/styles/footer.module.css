@@ -1,0 +1,125 @@
+.footerDistributed {
+  background: rgb(134, 109, 75);
+  filter: brightness(120%);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  font: bold 16px sans-serif;
+  padding: 15px 50px;
+}
+
+.footerDistributed h3 {
+  color: #ffffff;
+  font: normal 36px "Open Sans", cursive;
+  margin: 0;
+}
+
+.footerDistributed .footerLinks {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footerDistributed .footerLinks a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footerDistributed .footerCompanyName {
+  color: #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footerDistributed .footerCenter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.footerDistributed .footerRight {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.footerDistributed .footerCenter i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 8px 15px;
+  vertical-align: middle;
+}
+
+.footerDistributed .footerRight i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 8px 6px;
+  vertical-align: middle;
+}
+
+.footerDistributed .footerRight i::before {
+  font-size: 20px;
+}
+
+.footerDistributed .footerCenter i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footerDistributed .footerCenter p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.infoFonts {
+  font-size: 12px;
+}
+
+.contactIcons a:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .footerDistributed .footerCenter {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .queryWidthContainer {
+    min-width: 250px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .queryWidthContainer {
+    min-width: 350px;
+  }
+}

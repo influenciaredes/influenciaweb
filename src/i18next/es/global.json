@@ -1,0 +1,58 @@
+{
+  "create": {
+    "experiencie": {
+      "title": "Experiencia",
+      "text": "Contamos con un equipo con más de 10 años de experiencia en el mundo digital. Somos el nexo entre creadores de contenido y marcas, buscando siempre soluciones efectivas y adaptadas a cada situación particular."
+    },
+    "community": {
+      "title": "Comunidad",
+      "text": "Trabajamos con una amplia variedad de influencers y figuras de los medios en distintas plataformas y redes sociales. A través del estudio de situación sobre cada caso brindamos un servicio específico para atender las necesidades de las campañas a realizar."
+    },
+    "results": {
+      "title": "Resultados",
+      "text": "Realizando acuerdos bajo ciertos objetivos, los réditos de las estrategias de marketing de Influencia son sencillamente medibles y verificables en el corto plazo por lo que cada marca puede comprobar la eficacia y eficiencia de nuestro trabajo en colaboración."
+    },
+    "values": {
+      "title": "Valores",
+      "text": "Creemos en la transparencia en todas nuestras interacciones, valoramos la creatividad y la innovación en todo lo que hacemos. Creemos en el poder de la generación de contenido en comunidad y en el trabajo en equipo."
+    }
+  },
+  "aboutUs": {
+    "title": "SOBRE NOSOTROS",
+    "text": "En Influencia nos dedicamos a potenciar la colaboración entre influencers y marcas para impulsar las ventas, optimizar campañas y lograr el crecimiento de ambos. Con mas de 400 perfiles, nuestra plataforma se ha convertido en el punto de encuentro para creadores de contenido y empresas."
+  },
+  "slider": {
+    "contact": "Contactanos"
+  },
+  "typeWritter": {
+    "text1": "Publicidad en redes sociales",
+    "text2": "Conectamos con tu comunidad digital"
+  },
+  "carrousel": {
+    "title": "COLABORACIONES CON MARCAS"
+  },
+  "topProfiles": {
+    "title": "COLABORACIONES CON PERFILES"
+  },
+  "socialMediaImpact": {
+    "text1": "Más de ",
+    "amount": "400",
+    "text2": "perfiles entre",
+    "text3": "MICRO Y MEGA INFLUENCERS",
+    "text4": "en las principales redes sociales.",
+    "text5": "Actualmente contamos con presencia a nivel",
+    "text6": "REGIONAL, NACIONAL Y CONTINENTAL"
+  },
+  "ranking": {
+    "followers": "Seguidores",
+    "engagement": "Engagement Rate",
+    "favorite": "Red Preferida",
+    "button": "Ver más"
+  },
+  "nav": {
+    "inicio": "Inicio",
+    "aboutUs": "Sobre Nosotros",
+    "community": "Comunidad",
+    "contact": "Contacto"
+  }
+}

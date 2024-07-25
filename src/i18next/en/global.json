@@ -1,0 +1,155 @@
+{
+  "header": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "ourCommunity": "Community",
+    "contact": "Contact Us"
+  },
+  "explore": {
+    "filter": "Filters",
+    "results": "results for",
+    "all": "All",
+    "collections": "Collections",
+    "artists": "Artists",
+    "popular": "More popular"
+  },
+  "footer": {
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy policies",
+    "howWork": "How does it work",
+    "about": "About"
+  },
+  "mainCollections": {
+    "collections": "COLLECTIONS",
+    "createdBy": "Created by"
+  },
+  "create": {
+    "experiencie": {
+      "title": "Experience",
+      "text": "We have a team with more than 10 years of experience in the digital world. We are the link between content creators and brands, always looking for effective solutions adapted to each particular situation."
+    },
+    "community": {
+      "title": "Community",
+      "text": "We work with a wide variety of influencers and media figures on different platforms and social networks. Through the situation study of each case, we provide a specific service to meet the needs of the campaigns to be carried out."
+    },
+    "results": {
+      "title": "Results",
+      "text": "By making agreements under certain objectives, the returns from Influence marketing strategies are simply measurable and verifiable in the short term, so each brand can verify the effectiveness and efficiency of our collaborative work."
+    },
+    "values": {
+      "title": "Values",
+      "text": "We believe in transparency in all our interactions, we value creativity and innovation in everything we do. We believe in the power of community content generation and teamwork."
+    }
+  },
+  "section": {
+    "more": "Explore",
+    "explore": "EXPLORE MORE",
+    "artist": "Artist"
+  },
+  "hambMenu": [
+    {
+      "id": 1,
+      "name": "Create",
+      "links": "#",
+      "namesub": [
+        {
+          "id": 1,
+          "sub": "Help Center",
+          "links": "/help-center"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Explore",
+      "links": "#",
+      "namesub": [
+        {
+          "id": 1,
+          "sub": "Explore 01",
+          "links": "/explore-01"
+        },
+        {
+          "id": 5,
+          "sub": "Live Auctions",
+          "links": "/live-auctions"
+        },
+        {
+          "id": 6,
+          "sub": "Item Details 01",
+          "links": "/item-details-01"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Log in",
+      "links": "#",
+      "namesub": [
+        {
+          "id": 1,
+          "sub": "Authors 01",
+          "links": "/authors-01"
+        },
+        {
+          "id": 3,
+          "sub": "Wallet Connect",
+          "links": "/wallet-connect"
+        },
+        {
+          "id": 4,
+          "sub": "Create Item",
+          "links": "/create-item"
+        }
+      ]
+    }
+  ],
+  "detailItem": {
+    "ilustration": "Ilustration",
+    "owned": "Owned by",
+    "artist": "Artist",
+    "description": "DESCRIPTION",
+    "details": "DETAILS",
+    "createDate": "Creation date",
+    "contractAddress": "Contract address",
+    "relatedArtists": "RELATED ARTISTS"
+  },
+  "aboutUs": {
+    "title": "ABOUT US",
+    "text": "At Influencia we are dedicated to promoting collaboration between influencers and brands to boost sales, optimize campaigns and achieve growth for both. With more than 400 profiles, our platform has become the meeting point for content creators and companies."
+  },
+  "slider": {
+    "contact": "Contact Us"
+  },
+  "typeWritter": {
+    "text1": "Social media advertising",
+    "text2": "We connect with your digital community"
+  },
+  "carrousel": {
+    "title": "COLLABORATIONS WITH BRANDS"
+  },
+  "topProfiles": {
+    "title": "COLLABORATIONS WITH INFLUENCERS"
+  },
+  "socialMediaImpact": {
+    "text1": "More than ",
+    "amount": "400",
+    "text2": "profiles between",
+    "text3": "MICRO & MEGA INFLUENCERS",
+    "text4": "on the main social media networks.",
+    "text5": "We currently have presence at level",
+    "text6": "REGIONAL, NATIONAL & CONTINENTAL"
+  },
+  "ranking": {
+    "followers": "Followers",
+    "engagement": "Engagement Rate",
+    "favorite": "Favorite App",
+    "button": "View More"
+  },
+  "nav": {
+    "inicio": "Influencia",
+    "aboutUs": "About Us",
+    "community": "Community",
+    "contact": "Contact"
+  }
+}

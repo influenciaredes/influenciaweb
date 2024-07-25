@@ -1,0 +1,38 @@
+.title {
+  font-size: 34px;
+  color: #14141f;
+  filter: brightness(1);
+  background: linear-gradient(-45deg, #e6ddd2, #866d4b, #e6ddd2, #866d4b);
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  -webkit-text-fill-color: #14141f;
+}
+
+.carouselTitle {
+  text-align: center;
+  padding: 20px 50px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(20, 20, 31);
+  padding: 20px 25%;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 14px 30px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    padding: 0 30px 0 30px;
+  }
+  .carouselTitle {
+    padding: 0 10px 30px 10px;
+  }
+}

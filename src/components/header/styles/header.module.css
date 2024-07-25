@@ -1,0 +1,26 @@
+.headerOptions {
+  color: #e6ddd2 !important;
+  cursor: pointer !important;
+}
+
+.headerOptions:after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(-45deg, #e6ddd2, #866d4b, #e6ddd2, #866d4b);
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -8px;
+  transition: 0.3s;
+}
+
+.headerOptions:hover {
+  color: #ffff;
+}
+.headerOptions:hover:after {
+  width: 100%;
+}
+
+.selectedLang {
+  opacity: 0.5;
+}

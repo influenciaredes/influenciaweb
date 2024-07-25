@@ -1,0 +1,172 @@
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.avatarProfile {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+  border: 2px solid #866d4b;
+}
+
+.avatarProfile:hover {
+  filter: grayscale(0%);
+}
+
+.mainRosterAvatar {
+  min-width: 220px;
+  min-height: 220px;
+  object-fit: cover;
+}
+
+.rosterSocialMedia i::before {
+  font-size: 24px;
+}
+
+.title {
+  font-size: 34px;
+  color: #14141f;
+  /* background: linear-gradient(-45deg, #e250e5, #4b50e6, #e250e5, #4b50e6); */
+  background: linear-gradient(216.56deg, #e6ddd2 5.32%, #866d4b 94.32%);
+
+  filter: brightness(1);
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  -webkit-text-fill-color: #14141f;
+}
+
+.carouselTitle {
+  text-align: center;
+  padding: 30px 30px 0 30px;
+}
+
+.favouriteIcon i::before {
+  font-size: 30px;
+  color: #866d4b;
+  filter: brightness(150%);
+}
+
+.wrapperCard {
+  padding: 10px 10%;
+}
+
+#card-area {
+  padding: 50px 0;
+}
+
+.boxArea {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+.boxCard {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  width: 280px;
+  height: 300px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.boxCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+
+.overlayInfo {
+  height: 0;
+  width: 100%;
+  background: linear-gradient(transparent, #866d4b 58%);
+  filter: brightness(150%);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+
+.mediaContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.overlayInfo h3 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 80%;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.overlayInfo a {
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+}
+
+.boxCard:hover img {
+  transform: scale(1.2);
+}
+
+.boxCard:hover .overlayInfo {
+  height: 100%;
+}
+
+.gridRanking {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  column-gap: 20px;
+}
+
+.firstViewRaking {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.rankingColumnNames {
+  color: #e6ddd2;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  .carouselTitle {
+    padding: 20px;
+  }
+
+  .boxArea {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+  }
+  .gridRanking {
+    grid-template-columns: 1fr;
+  }
+
+  .firstViewRaking {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .carouselTitle {
+    padding: 0;
+  }
+}

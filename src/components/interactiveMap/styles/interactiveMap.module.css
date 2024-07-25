@@ -1,0 +1,75 @@
+.mapaDiv path {
+  fill: #ede7e6;
+  stroke: rgb(56, 53, 53);
+  stroke-width: 2px;
+}
+
+.mapaDiv {
+  width: 40%;
+  margin: auto;
+}
+
+.contMapaDiv {
+  width: 120%;
+  margin: auto;
+}
+
+.contMapaDiv path {
+  fill: #ede7e6;
+  stroke: rgb(56, 53, 53);
+  stroke-width: 2px;
+}
+
+.mapaDiv path:hover {
+  cursor: pointer;
+}
+
+.buttonPosition {
+  position: absolute;
+  right: 0;
+
+  margin-right: 20px;
+}
+
+.buttonPosition a {
+  padding: 20px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .buttonPosition {
+    position: relative;
+  }
+  .mapaDiv {
+    width: 80%;
+  }
+
+  .contMapaDiv {
+    margin-left: -100px !important;
+    width: 130%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .contMapaDiv {
+    margin-left: -150px !important;
+    width: 160%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .contMapaDiv {
+    margin-left: -150px !important;
+    width: 180%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .contMapaDiv {
+    margin-left: -100px !important;
+    width: 180%;
+    margin: auto;
+  }
+}
