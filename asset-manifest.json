@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/influenciaweb/static/css/main.1015ad40.css",
-    "main.js": "/influenciaweb/static/js/main.d6aaf0af.js",
+    "main.js": "/influenciaweb/static/js/main.05a0a351.js",
     "static/media/AvatarMiliCursio.PNG": "/influenciaweb/static/media/AvatarMiliCursio.96482287373dda3cee3d.PNG",
     "static/media/AvatarDavoo.jpeg": "/influenciaweb/static/media/AvatarDavoo.d63e757b46babba3eaa1.jpeg",
     "static/media/AvatarBanzas.jpeg": "/influenciaweb/static/media/AvatarBanzas.34b6cf71ac7f37bffeb7.jpeg",
@@ -58,10 +58,10 @@
     "static/media/prueba2.svg": "/influenciaweb/static/media/prueba2.b16294db6d0b106f9dcd105716065a1c.svg",
     "index.html": "/influenciaweb/index.html",
     "main.1015ad40.css.map": "/influenciaweb/static/css/main.1015ad40.css.map",
-    "main.d6aaf0af.js.map": "/influenciaweb/static/js/main.d6aaf0af.js.map"
+    "main.05a0a351.js.map": "/influenciaweb/static/js/main.05a0a351.js.map"
   },
   "entrypoints": [
     "static/css/main.1015ad40.css",
-    "static/js/main.d6aaf0af.js"
+    "static/js/main.05a0a351.js"
   ]
 }
