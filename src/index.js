@@ -33,11 +33,11 @@ i18next.init({
   },
 });
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <ScrollToTop />
     <I18nextProvider i18n={i18next}>
       <App />
     </I18nextProvider>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById("root")
 );
