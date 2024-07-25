@@ -33,7 +33,7 @@ i18next.init({
   },
 });
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={window.location.pathname || ""}>
     <ScrollToTop />
     <I18nextProvider i18n={i18next}>
       <App />
