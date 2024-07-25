@@ -17,8 +17,6 @@ const sessionLang =
     ? lang[0].lang
     : lang[1].lang;
 
-console.log(userDataStorage, "ACA");
-console.log(sessionLang, "ACA");
 i18next.init({
   interpolation: { escapeValue: false },
   lng: sessionLang,
